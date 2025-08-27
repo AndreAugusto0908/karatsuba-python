@@ -27,9 +27,8 @@ def karatsuba(x, y):
     z1 = produto_somas - z2 - z0
 
     # Resultado = z2 * 10^(2q) + z1 * 10^q + z0
-    resultado = (z2 * 10 ** (2 * q)) + (z1 * 10 ** q) + z0
+    return resultado = (z2 * 10 ** (2 * q)) + (z1 * 10 ** q) + z0
 
-    return resultado
 
 
 # Exemplo de uso
